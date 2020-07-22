@@ -11,7 +11,7 @@ import AVFoundation
 
 
 class ViewController: UIViewController {
-    var rate: Float = 0.7
+    var rate: Float = 0.7 // the speed of blinking flashlight and screen colours. Currently set to 0.7
     var timer : Timer? = nil
     let colors = [ #imageLiteral(resourceName: "3"), #imageLiteral(resourceName: "5"), #imageLiteral(resourceName: "8"), #imageLiteral(resourceName: "4"), #imageLiteral(resourceName: "2"), #imageLiteral(resourceName: "1"), #imageLiteral(resourceName: "6"), #imageLiteral(resourceName: "7")]
     @IBOutlet weak var slider: UISlider!
